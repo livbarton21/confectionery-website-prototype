@@ -1,0 +1,202 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  box-sizing: border-box;
+  font-family: 'Lobster', cursive;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: block;
+  margin: 0;
+}
+
+header {
+  margin: 0;
+  background-color: pink;
+  color:#fff;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  margin: 0;
+}
+
+nav ul {
+  font-size: 1.125rem;
+}
+
+nav li {
+  font-family: 'Playfair Display', serif;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.125rem;
+  display: block;
+  float: left;
+  width: 50%;
+  background-color: pink;
+}
+
+nav a {
+  padding: .2rem;
+  white-space: nowrap;
+}
+
+nav a:hover {
+  color: black;
+  background-color: #fff;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav {
+    background-color: pink;
+    overflow: hidden;
+    padding-left: 1.3rem;
+}
+
+img {
+  width: 32%;
+  display: inline-block;
+  padding-top: 1rem;
+}
+
+.two {
+  width: 100%;
+  height: 15rem;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 a {
+  color: black;
+}
+
+h2 a:hover{
+  background-color: pink;
+}
+
+p {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.btn {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: .5em 1em;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: pink;
+  color: black;
+  font-size: 1.125rem;
+  width: 32.7%;
+  text-align: center;
+}
+
+.btn-subtle {
+  background-color: #fff;
+  color: #000;
+  width: 45%;
+  text-align: center;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: pink;
+}
+
+.four {
+  height: 10rem;
+  position: absolute;
+  float: left;
+  margin-left: 3rem;
+}
+
+.bottomone {
+  display: block;
+  text-decoration: none;
+  margin-left: 6rem;
+  margin-top: 3rem;
+  font-size: 1.25rem;
+}
+
+.bottomtwo {
+  display: block;
+  text-decoration: none;
+  margin-left: 6rem;
+  margin-top: -1rem;
+  font-size: 1.25rem;
+}
+
+.bottomone a {
+  text-decoration: underline;
+}
+
+.bottomtwo a {
+  text-decoration: underline;
+}
+
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.3;
+  }
+
+  h1,
+  p {
+    margin: 0;
+  }
+
+  nav li {
+    display: block;
+  }
+
+  header {
+    overflow: hidden;
+  }
+
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.4rem;
+  }
+
+  nav li {
+    width: 25%;
+    float: right;
+  }
+
+@media only screen and (min-width: 60em) {
+
+@media only screen and (min-width: 90em) {
