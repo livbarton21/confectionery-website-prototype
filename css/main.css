@@ -222,9 +222,10 @@ footer {
     float: left;
     width: 50%;
     margin: 0;
+    border: 5px;
   }
 
-p.clear {
+.clear {
   clear: both;
 }
 
