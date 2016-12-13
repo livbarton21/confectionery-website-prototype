@@ -39,7 +39,7 @@ header {
 h1 {
   color: black;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 2.8rem;
   margin: 0;
   overflow: hidden;
   position: absolute;
@@ -189,6 +189,10 @@ footer {
     margin: 0;
   }
 
+  h1 {
+    font-size: 3rem;
+  }
+
   nav li {
     display: block;
   }
@@ -196,20 +200,6 @@ footer {
   header {
     overflow: hidden;
   }
-
-  .Gift
-  .Classes
-  .Flavours {
-    position: relative;
-  }
-
-  .one
-  .two
-  .three {
-    position: absolute;
-    bottom: 5%;
-  }
-
 
 @media only screen and (min-width: 38em) {
 
@@ -227,6 +217,16 @@ footer {
     width: 25%;
     float: right;
   }
+
+  .img-caption {
+    float: left;
+    width: 50%;
+    margin: 0;
+  }
+
+p.clear {
+  clear: both;
+}
 
 @media only screen and (min-width: 60em) {
 
