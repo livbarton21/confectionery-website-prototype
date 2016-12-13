@@ -38,7 +38,7 @@ header {
 h1 {
   color: black;
   text-align: center;
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin: 0;
   overflow: hidden;
 }
@@ -86,7 +86,7 @@ img {
   padding-top: 1rem;
 }
 
-.two {
+.img-caption {
   width: 100%;
   height: 15rem;
 }
@@ -94,6 +94,7 @@ img {
 h2 {
   text-align: center;
   text-decoration: underline;
+  font-size: 2rem;
 }
 
 h2 a {
@@ -118,7 +119,7 @@ p {
   background-color: pink;
   color: black;
   font-size: 1.125rem;
-  width: 32.7%;
+  width: 31%;
   text-align: center;
 }
 
