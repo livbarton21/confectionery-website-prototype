@@ -167,6 +167,12 @@ p {
   text-decoration: underline;
 }
 
+footer {
+  display: block;
+  border: 5px;
+  background-color: pink;
+  margin-top: 4rem;
+}
 
 @media only screen and (min-width: 25em) {
 
