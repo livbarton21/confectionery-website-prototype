@@ -202,6 +202,7 @@ footer {
   header {
     overflow: hidden;
   }
+}
 
 @media only screen and (min-width: 38em) {
 
@@ -225,25 +226,26 @@ footer {
     width: 40%;
   }
 
-.clear {
-  clear: both;
-}
+  .clear {
+    clear: both;
+  }
 
-h1 {
-  left: 7rem;
-  top: 3rem;
-}
+  h1 {
+    left: 7rem;
+    top: 3rem;
+  }
 
-.one {
-  display: inline-block;
-}
+  .one {
+    display: inline-block;
+  }
 
-.btn {
-  width: 32.8%;
-}
+  .btn {
+    width: 32.8%;
+  }
 
-nav li {
-  padding: 0;
+  nav li {
+    padding: 0;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -278,6 +280,7 @@ nav li {
   .img-caption {
     width: 100%;
   }
+}
 
 @media only screen and (min-width: 90em) {
 
