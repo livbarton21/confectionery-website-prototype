@@ -67,20 +67,20 @@ nav a {
   white-space: nowrap;
 }
 
-nav a:hover {
-  color: black;
-  background-color: #fff;
-}
-
 li a {
   color: black;
   text-decoration: none;
   display: inline-block;
 }
 
+nav a:hover {
+  color: black;
+  background-color: #fff;
+}
+
 nav {
-    background-color: pink;
-    overflow: hidden;
+  background-color: pink;
+  overflow: hidden;
 }
 
 img {
