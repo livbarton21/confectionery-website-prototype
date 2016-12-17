@@ -67,10 +67,18 @@ nav a {
   white-space: nowrap;
 }
 
+h2 a {
+  color: black;
+}
+
 li a {
   color: black;
   text-decoration: none;
   display: inline-block;
+}
+
+.bottomone a {
+  text-decoration: underline;
 }
 
 nav a:hover {
@@ -98,10 +106,6 @@ h2 {
   text-align: center;
   text-decoration: underline;
   font-size: 2rem;
-}
-
-h2 a {
-  color: black;
 }
 
 h2 a:hover {
@@ -160,10 +164,6 @@ p {
   margin-left: 6rem;
   margin-top: -1rem;
   font-size: 1.25rem;
-}
-
-.bottomone a {
-  text-decoration: underline;
 }
 
 .bottomtwo a {
