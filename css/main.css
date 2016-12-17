@@ -81,6 +81,10 @@ li a {
   text-decoration: underline;
 }
 
+.bottomtwo a {
+  text-decoration: underline;
+}
+
 nav a:hover {
   color: black;
   background-color: #fff;
@@ -166,10 +170,6 @@ p {
   font-size: 1.25rem;
 }
 
-.bottomtwo a {
-  text-decoration: underline;
-}
-
 footer {
   display: block;
   border: 5px;
@@ -218,6 +218,7 @@ footer {
   nav li {
     width: 25%;
     float: right;
+    padding: 0;
   }
 
   .img-caption {
@@ -242,9 +243,6 @@ footer {
     width: 32.8%;
   }
 
-  nav li {
-    padding: 0;
-  }
 }
 
 @media only screen and (min-width: 60em) {
