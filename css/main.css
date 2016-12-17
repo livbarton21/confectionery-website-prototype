@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: 'Lobster', cursive;
+  font-family: Lobster, cursive;
 }
 
 *, *::before, *::after {
@@ -25,7 +25,7 @@ body {
 header {
   margin: 0;
   background-color: pink;
-  color:#fff;
+  color: #fff;
   text-align: center;
 }
 
@@ -104,7 +104,7 @@ h2 a {
   color: black;
 }
 
-h2 a:hover{
+h2 a:hover {
   background-color: pink;
 }
 
@@ -143,7 +143,6 @@ p {
 .four {
   height: 10rem;
   position: absolute;
-  float: left;
   margin-left: 3rem;
 }
 
